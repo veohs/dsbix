@@ -31,7 +31,7 @@ def fetch_entries_by_day(dsbclient, klasse, wanted_day):
     return message
 
 klasse = "10a"
-dsbclient = dsbix.DSBApi("299761", "cicero2223", tablemapper=['class','lesson','new_subject','room','subject','new_teacher','type','text'])
+dsbclient = dsbix.DSBApi("YOUR USER", "YOUR PASSWORD", tablemapper=['class','lesson','new_subject','room','subject','new_teacher','type','text'])
 
 wanted_day = input("Geben Sie den gewünschten Tag ein (z.B. Montag): ")
 result = fetch_entries_by_day(dsbclient, klasse, wanted_day)
