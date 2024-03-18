@@ -1,7 +1,7 @@
 # dsbix
 Eine aktualisierte Version der DSBApi von nerrixde.
 
-Kontaktiert mich auf Github (https://github.com/zfqtim) oder schreibt mir eine E-Mail an zfq@tuta.io, wenn es Probleme gibt.
+Kontaktiert mich auf Github (https://github.com/veohs) oder schreibt mir eine E-Mail an zfq@tuta.io, wenn es Probleme gibt.
 
 Dieses Repository funktioniert momentan, also werde ich Sie nicht aktualisieren, es sei denn, es gibt eine Art Problem.
 
