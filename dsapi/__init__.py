@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-DSBApi
-An API for the DSBMobile substitution plan solution, which many schools use.
+dsapi
+made by zfq
 """
-__version_info__ = ('0', '0', '14')
+__version_info__ = ('0', '5')
 __version__ = '.'.join(__version_info__)
 
 import bs4
@@ -36,7 +36,7 @@ class DSBApi:
         if not isinstance(tablemapper, list):
             raise TypeError('Attribute tablemapper is not of type list!')
         self.tablemapper = tablemapper
-        
+
         # loop over tablemapper array and identify the keyword "class". The "class" will have a special operation in split up the datasets
         self.class_index = None
         i = 0
@@ -45,7 +45,7 @@ class DSBApi:
                 self.class_index = i
                 break
             i += 1
-       
+
 
     def fetch_entries(self, images=True):
         """
@@ -86,7 +86,7 @@ class DSBApi:
         # validate response before proceed
         if data['Resultcode'] != 0:
             raise Exception(data['ResultStatusInfo'])
-        
+
         # Find the timetable page, and extract the timetable URL from it
         final = []
         for page in data["ResultMenuItems"][0]["Childs"]:
@@ -162,7 +162,7 @@ class DSBApi:
                 infos = entry.find_all("td")
                 if len(infos) < 2:
                     continue
-                
+
                 # check if a "class" attribute is there, if yes, split the "class" value by "," to spread out the data rows for each school class
                 if self.class_index != None:
                     class_array = infos[self.class_index].text.split(", ")
