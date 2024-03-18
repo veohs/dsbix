@@ -11,7 +11,7 @@ setuptools.setup(
     description="API für DSBMobile via tesseract.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/zfqtim/dsapi",
+    url="https://github.com/zfqtim/dsbix",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
