@@ -1,13 +1,12 @@
 # dsbix
 Eine aktualisierte Version der DSBApi von nerrixde.
-Installieren Sie alle Anforderungen, bevor Sie installieren, oder verwenden Sie einfach 'pip install dsapi'.
 
-Kontaktieren Sie mich auf Github (https://github.com/zfqtim) oder schreiben Sie mir eine E-Mail an zfq@tuta.io, wenn es Probleme gibt.
+Kontaktiert mich auf Github (https://github.com/zfqtim) oder schreibt mir eine E-Mail an zfq@tuta.io, wenn es Probleme gibt.
 
-Dieses Repository funktioniert momentan, also werde ich es nicht aktualisieren, es sei denn, es gibt eine Art Änderung.
+Dieses Repository funktioniert momentan, also werde ich Sie nicht aktualisieren, es sei denn, es gibt eine Art Problem.
 
 # Installation
-Entweder mit `pip pip install dsbix` oder manuell `pip install git+https://github.com/zfqtim/dsbix.git#egg=dsbix`.
+Entweder mit `pip pip install dsbix` oder manuell `pip install git+https://github.com/veohs/dsbix.git#egg=dsbix`.
 
 ## Usage
 
