@@ -31,7 +31,8 @@ Alle Arrays
 |day|	Montag|	Wochentag|
 |updated|	18.03.2024 15:13|	Letztes Update|
 
-# Implentierung
+# Implimentierung
+
 Ich habe als Beispiel eine Version progranmmiert welche nach auswahl mir alle Änderungen der nächsten zwei Tage anzeigt. Wenn die Werte bei euch nicht Stimmen lest meine Notiz hierüber.
 ```
 import dsbix
@@ -70,5 +71,9 @@ wanted_day = input("Geben Sie den gewünschten Tag ein (z.B. Montag): ")
 result = fetch_entries_by_day(dsbclient, klasse, wanted_day)
 print(result)
 ```
+Output sieht dann so aus:
 
-
+```
+Geben Sie den gewünschten Tag ein (z.B. Montag): Dienstag
+Am Dienstag gibt es 2 Einträge. In der 1 - 2. Stunde hast du --- mit Bau in ---. Grund dafür ist entfällt. In der 3 - 4. Stunde hast du F mit Boi in FS2. Grund dafür ist Raumänderung.
+```
