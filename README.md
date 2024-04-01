@@ -6,7 +6,7 @@ Kontaktiert mich auf Github (https://github.com/veohs) oder schreibt mir eine E-
 Dieses Repository funktioniert momentan, also werde ich Sie nicht aktualisieren, es sei denn, es gibt eine Art Problem.
 
 # Installation
-Entweder mit `pip pip install dsbix` oder manuell `pip install git+https://github.com/veohs/dsbix.git#egg=dsbix`.
+Entweder mit `pip install dsbix` oder manuell `pip install git+https://github.com/veohs/dsbix.git#egg=dsbix`.
 
 ## Usage
 
@@ -30,7 +30,7 @@ Alle Arrays
 |day|	Montag|	Wochentag|
 |updated|	18.03.2024 15:13|	Letztes Update|
 
-# Implimentierung
+# Implementierung
 
 Ich habe als Beispiel eine Version progranmmiert welche nach auswahl mir alle Änderungen der nächsten zwei Tage anzeigt. Wenn die Werte bei euch nicht Stimmen lest meine Notiz hierüber.
 ```
